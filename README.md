@@ -5,6 +5,6 @@ flowchart TD
     C -->|Too High| D[Guess again. Choose a lower number.]
     D -->B
     E -->G[End Game]
-    C -->|Correct| E[You Win!! Total Guess Counter: ]
+    C -->|Correct / Total Guesses Final| E[You Win!! Total Guess Counter: ]
     C -->|Too Low| F[Guess again. Choose a higher number.]
     F -->B
